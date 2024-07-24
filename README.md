@@ -16,10 +16,20 @@
 - **Dataset:** The dataset includes information about past loan applicants and their repayment status, sourced from the company's loan records.
 
 ## Conclusions
-- **Income Analysis:** Annual income categories play a crucial role in determining financial stability and lending decisions.
-- **Loan Term Impact:** Loans with different terms (36 or 60 months) show varying default rates, affecting repayment capacity assessment.
-- **Credit History:** Longer credit histories and fewer recent delinquencies indicate lower default risks.
-- **Verification Status:** Verified income and employment statuses ensure higher credibility and lower default risks.
+
+### The Primary Factors for Better Decision-Making on Lending:
+-  Grade & Sub-Grades: Correlated with the risk of credit loss except for the final risk bucket which should be analysed 
+-  Inquiries in Last 6 Months (inq_last_6mths): A surprising metric which shows that multiple credit inquiries may signal credit-seeking behavior and potential risk.
+-  Home Ownership: Homeowners may present lower risk.
+-  Debt-to-Income Ratio (dti): Higher DTI may indicate potential repayment issues.
+
+
+### Factors for Better Decision-Making on Loan Monitoring:
+-  Delinquencies in Last 2 Years (delinq_2yrs): An increase in the number of delinquencies indicate higher risk.
+-  Earliest Credit Line (earliest_cr_line): Regular credit reviews should be made on older accounts to ensure their credit limits are still correct
+-  Interest Rate (int_rate): Higher interest rates may correlate with higher risk loans due to the presence of penalty interest clauses
+-  Total Recovered Late Fees (total_rec_late_fee): Monitor late fees as an indicator of repayment behavior.
+
 
 ## Technologies Used
 - pandas - version 1.3.3
@@ -33,4 +43,4 @@
 - This project was based on [this tutorial](https://www.example.com).
 
 ## Contact
-Created by [@thomami244] and  Suprio Roy.
+Created by @thomami244 and  Supriyo Roy.
