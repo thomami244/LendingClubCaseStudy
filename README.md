@@ -44,3 +44,9 @@
 
 ## Contact
 Created by @thomami244 and  Supriyo Roy.
+
+## Related Work
+
+This project forms part of my broader work in applied machine learning and AI.
+
+I'm currently building **TailyX AI** (https://tailyx.ai), where similar machine learning principles are applied to inbound lead qualification and revenue operations.
